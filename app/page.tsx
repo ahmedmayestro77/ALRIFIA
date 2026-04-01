@@ -23,9 +23,6 @@ import {
   Facebook,
   Instagram,
   Twitter,
-  Lightbulb,
-  Tv,
-  Smile,
 } from "lucide-react"
 
 export default function RifiaWebsite() {
@@ -708,30 +705,7 @@ export default function RifiaWebsite() {
               >
                 <Twitter className="w-6 h-6 text-white" />
               </Link>
-              <Link
-                href="https://linktr.ee/Alrifianuts1"
-                target="_blank"
-                className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors duration-300"
-                title="Threads"
-              >
-                <Lightbulb className="w-6 h-6 text-white" />
-              </Link>
-              <Link
-                href="https://linktr.ee/Alrifianuts1"
-                target="_blank"
-                className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors duration-300"
-                title="Snapchat"
-              >
-                <Smile className="w-6 h-6 text-white" />
-              </Link>
-              <Link
-                href="https://linktr.ee/Alrifianuts1"
-                target="_blank"
-                className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors duration-300"
-                title="TikTok"
-              >
-                <Tv className="w-6 h-6 text-white" />
-              </Link>
+
             </div>
           </div>
 
