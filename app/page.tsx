@@ -20,6 +20,12 @@ import {
   CheckCircle,
   Menu,
   X,
+  Facebook,
+  Instagram,
+  Twitter,
+  Lightbulb,
+  Tv,
+  Smile,
 } from "lucide-react"
 
 export default function RifiaWebsite() {
@@ -675,7 +681,61 @@ export default function RifiaWebsite() {
             </div>
           </div>
 
-          <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/60">
+          {/* Social Media Links */}
+          <div className="border-t border-white/20 mt-8 pt-8">
+            <div className="flex items-center justify-center gap-4 mb-8">
+              <Link
+                href="https://linktr.ee/Alrifianuts1"
+                target="_blank"
+                className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors duration-300"
+                title="Facebook"
+              >
+                <Facebook className="w-6 h-6 text-white" />
+              </Link>
+              <Link
+                href="https://linktr.ee/Alrifianuts1"
+                target="_blank"
+                className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors duration-300"
+                title="Instagram"
+              >
+                <Instagram className="w-6 h-6 text-white" />
+              </Link>
+              <Link
+                href="https://linktr.ee/Alrifianuts1"
+                target="_blank"
+                className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors duration-300"
+                title="Twitter"
+              >
+                <Twitter className="w-6 h-6 text-white" />
+              </Link>
+              <Link
+                href="https://linktr.ee/Alrifianuts1"
+                target="_blank"
+                className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors duration-300"
+                title="Threads"
+              >
+                <Lightbulb className="w-6 h-6 text-white" />
+              </Link>
+              <Link
+                href="https://linktr.ee/Alrifianuts1"
+                target="_blank"
+                className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors duration-300"
+                title="Snapchat"
+              >
+                <Smile className="w-6 h-6 text-white" />
+              </Link>
+              <Link
+                href="https://linktr.ee/Alrifianuts1"
+                target="_blank"
+                className="w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors duration-300"
+                title="TikTok"
+              >
+                <Tv className="w-6 h-6 text-white" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="border-t border-white/20 pt-8 text-center text-white/60">
             <p>{language === "ar" ? "© 2024 الريفية. جميع الحقوق محفوظة." : "© 2024 RIFIA. All rights reserved."}</p>
           </div>
         </div>
